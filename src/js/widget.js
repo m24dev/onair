@@ -59,7 +59,7 @@ import '../css/widget.css';
 
         document.body.insertAdjacentHTML('beforeend', playerHTML);
         document.querySelector('.b-header-stripe03 .b-menu2 ul').insertAdjacentHTML('beforeend', btnHTML);
-        document.querySelector('.b-header-stripe01 .b-logo').insertAdjacentHTML('beforeend', mobileBtnHTML);
+        document.querySelector('.b-header-stripe01 .b-logo').insertAdjacentHTML('afterend', mobileBtnHTML);
 
         $player = document.querySelector('.onAir');
         $playerHeader = document.querySelector('.onAir-panel');
