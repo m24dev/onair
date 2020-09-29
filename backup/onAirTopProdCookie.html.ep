@@ -1,0 +1,4 @@
+<!--Cookie для виджета прямого эфира-->
+<link rel="stylesheet" type="text/css" href="/special/css/promo/airHeaderNew.css" />
+<script src="/special/js/draggabilly.pkgd.min.js"></script>
+<script src="/special/js/onAirTopProdCookie.js"></script>

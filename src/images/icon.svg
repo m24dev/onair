@@ -1,0 +1,22 @@
+<svg version="1.1" id="icn06" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 112 112" xml:space="preserve">
+ <style>
+body{--cyan:#0cefed;--black:#252525}
+@-webkit-keyframes Blink {
+50%{fill:rgba(12,239,237,0)}
+25%,75%{fill:rgba(12,239,237,1)}
+}
+@keyframes Blink {
+50%{fill:rgba(12,239,237,0)}
+25%,75%{fill:rgba(12,239,237,1)}
+}
+#icn06 path#ply{-webkit-animation:2s Blink infinite;animation:2s Blink infinite}
+#icn06 path#sqr{stroke-width:6;stroke-dasharray:450px;stroke-dashoffset:450px;stroke-linecap:square;-webkit-animation:6s Crcl linear infinite;animation:6s Crcl linear infinite}
+@-webkit-keyframes Crcl {
+15%,75%{stroke-dashoffset:0}
+100%{stroke-dashoffset:-450px}
+}
+@keyframes Crcl {
+15%,75%{stroke-dashoffset:0}
+100%{stroke-dashoffset:-450px}
+}
+</style><path id="ply" d="M86.9 58c1.9-1.1 1.9-2.8 0-3.9L34.9 24c-1.9-1.1-3.4-.2-3.4 2v60.1c0 2.2 1.5 3.1 3.4 2 0-.1 52-30.1 52-30.1z" fill="#0cefed"/><path id="sqr" fill="none" stroke="#0cefed" stroke-miterlimit="10" d="M5.7 5.7h100.7v100.7H5.7z"/></svg>
