@@ -95,7 +95,6 @@ import '../css/widget.css';
 
         draggie.on('dragEnd', function( event, pointer ) {
             const playerOffset = $player.getBoundingClientRect();
-            console.log(playerOffset.left);
             setCookie('airTop', playerOffset.top + document.body.scrollTop, {
                 path: '/'
             });
